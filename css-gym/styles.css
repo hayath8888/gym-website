@@ -1,0 +1,365 @@
+
+#title{
+  
+  color:white;
+}
+.container-fluid{
+
+  padding:3% 15%;
+  padding-bottom: 50px;
+  background-image: url(https://images.pexels.com/photos/703016/pexels-photo-703016.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-position: center;
+  background-size: cover;
+
+}
+h1,h2,h3{
+  font-family: "Montserrat";
+
+}
+
+p{
+  color:#000000;
+}
+
+
+/*NAVIGATION BAR*/
+#navbarid{
+  background-color: #000000;
+  
+}
+.navbar-brand{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:xx-large;
+  font-weight:bolder;
+}
+.nav-item{
+  font-family:sans-serif;
+  font-size:xx-large;
+  font-weight:bolder;
+  
+  
+}
+.nav-link{
+  font-style: italic;
+  
+  
+}
+.nav-link:hover{
+  
+  text-decoration: underline;
+  
+  background-blend-mode:lighten;
+}
+
+
+#navbar_item {
+  color:#ffffff;
+}
+.iconh4{
+  margin: 20px 0;
+  color: #ffffff;
+}
+.icon{
+  color:#fff;
+  margin:  0px 30px;
+}
+.icon:hover{
+  color:dodgerblue;
+}
+
+/* NOTE: download button */
+
+
+.tittle-image{
+  width:250%;
+
+  position: relative;
+  left:470px;
+  bottom: 200px;
+
+
+}
+@media (max-width:1080px) {
+  #title{
+    text-align: center;
+  }
+  
+}
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+
+
+#testimonials{
+  background-color:darkturquoise;
+  text-align: center;
+  color:#ffff;
+}
+.testimonial-text{
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width:70%;
+  
+  border-radius:10%;
+  margin: auto;
+  
+}
+.test-heading{
+  padding-top: 20px;
+}
+
+.carousel-item{
+padding: 7% 15%;
+}
+
+
+/* NOTE: pricing section */
+#pricing{
+  background-color: aquamarine;
+  padding:100px;
+
+}
+.section-heading{
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+.pricing-h3{
+  font-size: 1rem;
+
+}
+.pricing-coloum{
+  padding:3% 2%;
+  text-align: center;
+}
+.pricing-heading{
+  font-size: 2.6rem;
+  line-height: 1.5;
+}
+/* NOTE: cta section */
+ #contact{
+   background:darkturquoise ;
+   line-height: 2rem;
+   font-weight: bold;
+   font-family: ubuntu;
+   padding: 50px; 
+ }
+ .contact-h3{
+   text-transform: uppercase;
+   color: #fff;
+    
+ }
+ 
+ 
+ .ul{
+   color: #000000;
+   width: 40%;
+   
+   
+   
+ }
+ #animation{
+   text-align: center;
+   padding: 70px;
+   background-color: aquamarine;
+ }
+  .gymgif {
+    width:100%;
+    height:100%; 
+    
+  }
+  
+  .btn{
+    position: relative;
+    background-color: dodgerblue;
+    padding:14px 34px;
+    border-radius: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    font-size: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(77, 119, 255, 0.4) ;
+  }
+  .btn::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: rgba(255,255,255,0.2);
+    transform: translateX(-250%)skewX(-30deg);
+    transition: transform 0.7s ease-in-out;
+  }
+  .btn:hover::before{
+    transform: translateX(200%)skew(-30deg);
+  }
+  
+  
+  
+.finalbutton{
+margin:5% 3% 5% 0;
+}
+/* NOTE: footer section */
+
+#footer{
+  text-align: center;
+  padding-top: 50px;
+  background-color: #fff;
+
+}
+.icons{
+  color:black;
+  margin:0 1% 1%;
+  
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+  
+}
+.icons:hover{
+  color: dodgerblue;
+  transform: translate3d(200);
+}
+
+/* last */
+ 
+#last{
+  padding:100px;
+  background-color: #000000;
+  text-align: center;
+  
+}
+.last-img{
+ width:10%;
+
+}
+.last-a{
+  color:#fff;
+}
+.lastcopy{
+  color: #fff;
+}
+
+/*form body*/
+
+#formid{
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+  display: flex;
+  
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px  30px;
+  border-radius: 5px;
+}
+.title{
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight:500;
+  position: relative;
+}
+.title::before{
+  content:"";
+  position: absolute;
+  left:0;
+  bottom:0;
+  height: 4px;
+  width: 150px;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+.user-details{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.user-details .input-box{
+  width: calc(100% / 2 - 20px);
+  margin-top: 20px; 
+  margin-bottom: 12px;
+}
+.input-box input{
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #9b59b6;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px ;
+  transition: all 0.3s ease;
+  
+}
+.input-box textarea{
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #9b59b6;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 16px;
+  border-bottom-width: 2px ;
+  transition: all 0.3s ease;
+  
+}
+.gender-title{
+  text-transform: capitalize;
+  font-size: 17px;
+  margin-top: 30px;
+  
+}
+.category{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+ 
+  
+}
+.slot-title{
+  text-transform: capitalize;
+  font-size: 17px;
+  
+  
+}
+.slot-timing{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.button input{
+  height:40px;
+  width:100%;
+  color: #fff;
+  background: linear-gradient(135deg,#71b7e6,#9b59b6);
+  margin-bottom: 0;
+
+}
+.button input:hover{
+
+  background: linear-gradient(135deg,#9b59b6,#71b7e6);
+}
+
+
+
+  
+  
+ 
+
+
